@@ -1,0 +1,13 @@
+collections:
+  - name: ansible.netcommon
+  - name: ansible.utils
+  - name: junipernetworks.junos
+  - name: cisco.ios
+  - name: cisco.iosxr
+  - name: cisco.nxos
+  - name: vyos.vyos
+  - name: arista.eos
+  - name: git+https://github.com/redhat-cop/network.base
+  - name: git+https://github.com/redhat-cop/network.bgp
+  - name: git+https://github.com/redhat-cop/network.ospf
+  

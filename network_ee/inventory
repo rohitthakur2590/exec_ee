@@ -1,0 +1,29 @@
+[junos]
+10.0.150.143
+#192.168.122.121
+#10.1.164.208 
+#192.168.122.143
+#35.155.113.92
+# 10.0.150.71
+#10.0.150.143
+# 192.168.122.209
+[junos:vars]
+ansible_network_os=junipernetworks.junos.junos
+ansible_ssh_user=ansible
+#ansible_ssh_pass=ansible.123 # customer
+ansible_ssh_pass=Ansible
+#ansible_ssh_user=vagrant
+# ansible_ssh_port=22
+ansible_connection=ansible.netcommon.network_cli
+#ansible_ssh_private_key_file=/home/rothakur/.vagrant.d/insecure_private_key
+#ansible_connection=ansible.netcommon.netconf
+#ansible_python_interpreter=/home/rothakur/venvs/ansible36/bin/python
+
+#ansible_connection=ansible.netcommon.netconf
+# ansible_connection=network_cli
+# ansible_become=False
+# ansible_become_pass=
+# collection_name=junos
+# collection_namespace=junipernetworks
+# netconf={'transport': 'netconf',
+#          'netconf_port': 22}
